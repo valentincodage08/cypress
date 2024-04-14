@@ -28,4 +28,4 @@ jobs:
         run: npm install -D cypress-xpath
 
       - name: Run Cypress tests
-        run: npm run cy:open --spec "cypress/e2e/spec.cy.js"
+        run: npx cypress run --browser chrome --spec "cypress/e2e/spec.cy.js"
