@@ -24,7 +24,7 @@ jobs:
       - name: Install Cypress
         run: npm install cypress --save-dev
 
-       - name: Install XPath with Cypress
+      - name: Install XPath with Cypress
         run: npm install -D cypress-xpath
 
       - name: Run Cypress tests
